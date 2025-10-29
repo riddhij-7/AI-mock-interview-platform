@@ -1,8 +1,7 @@
 import React from 'react'
 import {FormControl, FormDescription, FormItem, FormLabel, FormMessage} from "@/components/ui/form";
 import {Input} from "@/components/ui/input";
-import {Controller, FieldValues, Path} from "react-hook-form";
-import {Control} from "node:child_process";
+import {Controller, FieldValues, Path, Control} from "react-hook-form";
 
 interface FormFieldProps<T extends FieldValues> {
     control: Control<T>;
